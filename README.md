@@ -25,9 +25,21 @@
 
 ## Решение
 
+import java.io.BufferedWriter;
+
+import java.io.FileWriter;
+
+import java.io.IOException;
+
+import java.util.HashMap;
+
+import java.util.Map;
+
+import java.util.Scanner;
  
 public class Main {
     public static void main(String[] args) {
+    
         Scanner scanner = new Scanner(System.in);
         
         // Создаем Мар для хранения данных однофамильцев
